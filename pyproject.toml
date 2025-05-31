@@ -1,0 +1,8 @@
+[project]
+dependencies = [
+    "mcp>=1.0.0",
+    "sqlite3",  # Built into Python
+    "fuzzywuzzy>=0.18.0",
+    "python-levenshtein>=0.25.0",  # For faster fuzzy matching
+    "typing-extensions>=4.0.0"
+]
